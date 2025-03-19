@@ -1,0 +1,25 @@
+{
+  "name": "sat_014d_emotion_test",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sadtx/sat_014d_emotion_test#readme",
+  "bugs": {
+    "url": "https://github.com/sadtx/sat_014d_emotion_test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadtx/sat_014d_emotion_test.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "develop": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.3",
+    "onnxruntime-node": "^1.21.0"
+  }
+}
