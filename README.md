@@ -1,10 +1,12 @@
+[English](README.md) | [Español](README.es-ES.md)
+
 ### to reproduce
 
 1. `npm ci`
 2. `node index.js`
 
 
-### desciription of the issue
+### description of the issue
 
 when importing onnxruntime-node and @huggingface/transformers, onnxruntime makes segmentation fault or bus error and prints the following error message
 ```
